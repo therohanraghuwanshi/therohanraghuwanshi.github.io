@@ -1,4 +1,3 @@
-function navbarToggle(x) {
-    x.classList.toggle("change");
+function navbarToggle() {
     document.getElementById("navigationMenu").classList.toggle("expanded");
 }
