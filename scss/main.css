@@ -17,23 +17,30 @@ body {
 }
 
 .container {
-  max-width: 1350px;
+  max-width: 1300px;
   width: 100%;
   margin: auto;
 }
 
 ::-moz-selection {
-  background-color: #55c57a;
+  background-color: #55e7b7;
   color: #fff;
 }
 
 ::selection {
-  background-color: #55c57a;
+  background-color: #55e7b7;
   color: #fff;
 }
 
 .header {
   padding: 2rem;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #55e7b7;
 }
 
 .header__wrapper {
@@ -65,7 +72,7 @@ body {
 
 .navigation__icon-open svg {
   width: 30px;
-  fill: #00d8a2;
+  fill: #55e7b7;
   height: 30px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -74,18 +81,19 @@ body {
 
 .navigation__icon-close svg {
   width: 30px;
-  fill: #00d8a2;
+  fill: #55e7b7;
   height: 30px;
   position: absolute;
   top: 3rem;
   right: 3rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .navigation__icon-close svg:hover {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .navigation__menu {
@@ -97,7 +105,7 @@ body {
   top: 0;
   right: 0;
   margin-right: -100%;
-  background-color: #333;
+  background-color: #222222;
   overflow-x: hidden;
   padding-top: 60px;
   -webkit-transition: 0.5s;
@@ -116,6 +124,6 @@ body {
 }
 
 .navigation__menu a:hover {
-  color: #00d8a2;
+  color: #62fac7;
 }
 /*# sourceMappingURL=main.css.map */

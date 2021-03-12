@@ -12,7 +12,7 @@
 
     &-open svg {
       width: 30px;
-      fill: #00d8a2;
+      fill: $color-primary;
       height: 30px;
       transition: all 0.3s;
       cursor: pointer;
@@ -20,15 +20,16 @@
 
     &-close svg {
       width: 30px;
-      fill: #00d8a2;
+      fill: $color-primary;
       height: 30px;
       position: absolute;
       top: 3rem;
       right: 3rem;
       transition: all 0.3s;
+      cursor: pointer;
 
       &:hover{
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
       }
     }
   }
@@ -42,7 +43,7 @@
     top: 0;
     right: 0;
     margin-right: -100%;
-    background-color: #333;
+    background-color: $color-grey-dark-3;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -57,7 +58,7 @@
       transition: 0.3s;
 
       &:hover {
-        color: #00d8a2;
+        color: $color-primary-light;
       }
     }
   }
