@@ -9,13 +9,35 @@
     position: absolute;
     top: 0;
     right: 2rem;
+    cursor: pointer;
 
-    &-open svg {
-      width: 30px;
-      fill: $color-primary;
-      height: 30px;
+    &:hover &-bar{
+      width: 3rem;
+    }
+
+    &-bar{
+      width: 3rem;
+      display: block;
+      margin-top: 2px;
+      background-color: $color-primary;
+      height: 3px;
       transition: all 0.3s;
-      cursor: pointer;
+
+      &:nth-child(1){
+        width: 1.7rem;
+      }
+
+      &:nth-child(2){
+        width: 2rem;
+      }
+
+      &:nth-child(4){
+        width: 1.8rem;
+      }
+
+      &:nth-child(5){
+        width: 2rem;
+      }
     }
 
     &-close svg {

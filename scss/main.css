@@ -35,13 +35,23 @@ body {
 
 .banner {
   height: 100vh;
-  background: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  max-width: 1300px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.banner .heading {
+  grid-column: 1 2;
+}
+
+.banner .image {
+  grid-column: 2 3;
 }
 
 .footer {
@@ -89,15 +99,37 @@ body {
   position: absolute;
   top: 0;
   right: 2rem;
+  cursor: pointer;
 }
 
-.navigation__icon-open svg {
-  width: 30px;
-  fill: #55e7b7;
-  height: 30px;
+.navigation__icon:hover .navigation__icon-bar {
+  width: 3rem;
+}
+
+.navigation__icon-bar {
+  width: 3rem;
+  display: block;
+  margin-top: 2px;
+  background-color: #55e7b7;
+  height: 3px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  cursor: pointer;
+}
+
+.navigation__icon-bar:nth-child(1) {
+  width: 1.7rem;
+}
+
+.navigation__icon-bar:nth-child(2) {
+  width: 2rem;
+}
+
+.navigation__icon-bar:nth-child(4) {
+  width: 1.8rem;
+}
+
+.navigation__icon-bar:nth-child(5) {
+  width: 2rem;
 }
 
 .navigation__icon-close svg {

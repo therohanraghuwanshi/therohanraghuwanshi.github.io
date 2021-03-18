@@ -1,7 +1,17 @@
 .banner{
     height: 100vh;
-    background: #333;
+    max-width: 1300px;
+    margin: auto;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
+
+    & .heading{
+        grid-column: 1 2;
+    }
+
+    & .image{
+        grid-column: 2 3;
+    }
 }
