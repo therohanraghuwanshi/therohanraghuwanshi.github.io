@@ -59,13 +59,13 @@
   &__menu {
     height: 100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 50rem;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
     margin-right: -100%;
-    background-color: $color-grey-dark-3;
+    background-color: lighten($color-primary-dark, 1);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -78,6 +78,14 @@
       opacity: 0.8;
       display: block;
       transition: 0.3s;
+
+      &::after{
+        display: block;
+        content: "";
+        height: 2px;
+        width: 100%;
+        color: $color-primary;
+      }
 
       &:hover {
         color: $color-primary-light;

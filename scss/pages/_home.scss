@@ -1,17 +1,14 @@
 .banner{
     height: 100vh;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: auto;
+    padding: 0 2rem;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
 
-    & .heading{
-        grid-column: 1 2;
-    }
-
-    & .image{
-        grid-column: 2 3;
+    &__text{
+        color: $color-white;
+        font-size: 2.5rem;
     }
 }

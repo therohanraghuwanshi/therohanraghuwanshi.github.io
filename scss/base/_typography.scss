@@ -1,0 +1,20 @@
+.heading{
+    color: $color-primary;
+    padding: 2rem 0;
+
+    &-primary{
+        display: block;
+        font-size: 6rem;
+        margin: 2rem 0;
+    }
+
+    &-secondary{
+        display: block;
+        padding: 2rem;
+        margin: 2rem 0;
+        width: max-content;
+        background: $color-primary;
+        color: $color-primary-dark;
+        font-size: 4rem;
+    }
+}

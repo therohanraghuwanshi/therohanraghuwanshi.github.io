@@ -13,6 +13,8 @@ html {
 body {
     box-sizing: border-box;
     font-size: $default-font-size;
+    background-color: $color-primary-dark;
+    color: $color-white;
 }
 
 .container{
