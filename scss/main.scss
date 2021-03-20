@@ -2,6 +2,16 @@
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+.typeText::after {
+    content: "|";
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
