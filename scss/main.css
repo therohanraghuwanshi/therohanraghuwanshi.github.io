@@ -27,12 +27,12 @@ body {
 
 ::-moz-selection {
   background-color: #55e7b7;
-  color: #fff;
+  color: #1e0d35;
 }
 
 ::selection {
   background-color: #55e7b7;
-  color: #fff;
+  color: #1e0d35;
 }
 
 .heading {
@@ -76,6 +76,11 @@ body {
   font-size: 2.5rem;
 }
 
+a.typewrite {
+  text-decoration: none;
+  color: #1e0d35;
+}
+
 .btn {
   padding: 2rem;
   font-size: 2rem;
@@ -94,6 +99,12 @@ body {
 .btn-primary:hover {
   background-color: #55e7b7;
   color: #1e0d35;
+}
+
+.card {
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid #55e7b7;
 }
 
 .footer {
