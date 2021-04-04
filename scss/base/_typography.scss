@@ -1,6 +1,5 @@
 .heading{
     color: $color-primary;
-    padding: 2rem 0;
 
     &-primary{
         display: block;
@@ -13,7 +12,8 @@
         padding: 2rem;
         margin: 2rem 0;
         width: max-content;
-        background: $color-primary;
+        background: $color-primary-light;
+        opacity: 0.7;
         color: $color-primary-dark;
         font-size: 4rem;
     }

@@ -1,8 +1,8 @@
 .banner{
     height: 100vh;
-    max-width: 1000px;
     margin: auto;
     padding: 0 2rem;
+    background: $color-primary-dark;
 
     display: flex;
     align-items: center;
@@ -11,9 +11,68 @@
         color: $color-white;
         font-size: 2.5rem;
     }
+
+    &__intro{
+        max-width: 100rem;
+        margin: auto;
+    }
 }
 
 a.typewrite{
     text-decoration: none;
     color: $color-primary-dark;
+}
+
+.aboutme{
+    padding: 0 5rem;
+    // background-color: $color-white;
+    color: $color-black;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+    }
+
+    &__image{
+        width: fit-content;
+        margin: 5rem 3rem;
+        border: 2px solid $color-primary-dark;
+
+        & img{
+            max-height: 400px;
+            transform: translate(10px, 10px);
+        }
+    }
+
+    &__heading{
+        color: $color-primary-dark;
+        font-size: 4rem;
+        margin: 2rem 0;
+    }
+
+    &__content{
+        margin: 3rem;
+        padding: 3rem;
+    }
+
+    &__skill{
+
+        &-lists{
+            display: flex;
+
+            & ul{
+                list-style: square;
+                margin: 0 2rem;
+
+                & li{
+                    margin: 1rem 0;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    p{
+        margin: 1rem 0;
+        letter-spacing: 1px;
+    }
 }

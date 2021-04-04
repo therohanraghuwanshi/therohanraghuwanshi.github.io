@@ -12,13 +12,13 @@ html {
 
 body {
     box-sizing: border-box;
-    font-size: $default-font-size;
-    background-color: $color-primary-dark;
+    font-size: $default-font-size;;
+    background-color: $color-grey-light-1;
     color: $color-white;
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 1200px;
     width: 100%;
     margin: auto;
 }
