@@ -1,5 +1,6 @@
 .navigation {
   display: block;
+  z-index: 999;
 
   .expanded {
     margin-right: 0;
@@ -11,11 +12,11 @@
     right: 2rem;
     cursor: pointer;
 
-    &:hover &-bar{
+    &:hover &-bar {
       width: 3rem;
     }
 
-    &-bar{
+    &-bar {
       width: 3rem;
       display: block;
       margin-top: 2px;
@@ -23,19 +24,19 @@
       height: 3px;
       transition: all 0.3s;
 
-      &:nth-child(1){
+      &:nth-child(1) {
         width: 1.7rem;
       }
 
-      &:nth-child(2){
+      &:nth-child(2) {
         width: 2rem;
       }
 
-      &:nth-child(4){
+      &:nth-child(4) {
         width: 1.8rem;
       }
 
-      &:nth-child(5){
+      &:nth-child(5) {
         width: 2rem;
       }
     }
@@ -50,7 +51,7 @@
       transition: all 0.3s;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         transform: rotate(-90deg);
       }
     }
@@ -65,7 +66,7 @@
     top: 0;
     right: 0;
     margin-right: -100%;
-    background-color: lighten($color-primary-dark, 1);
+    background-color: lighten($color-black, 1);
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -79,7 +80,7 @@
       display: block;
       transition: 0.3s;
 
-      &::after{
+      &::after {
         display: block;
         content: "";
         height: 2px;
@@ -88,7 +89,7 @@
       }
 
       &:hover {
-        color: $color-primary-light;
+        color: $color-primary;
       }
     }
   }
