@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100rem;
   width: 100%;
   margin: auto;
 }
@@ -75,11 +75,6 @@ body {
 .banner__text {
   color: #fff;
   font-size: 2.5rem;
-}
-
-.banner__intro {
-  max-width: 100rem;
-  margin: auto;
 }
 
 p.typewrite {
@@ -159,6 +154,40 @@ p.typewrite {
   letter-spacing: 1px;
 }
 
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #0f0f0f;
+}
+
+.about-text h2 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.about-text h5 span {
+  color: #00f9c3;
+}
+
+.about-text p {
+  color: #ccfff0cc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
 .contact-me {
   width: 100%;
   height: 290px;
@@ -187,13 +216,6 @@ p.typewrite {
 
 .contact-me a {
   text-decoration: none;
-  padding: 1.2rem 1.5rem;
-  color: #000;
-}
-
-.contact-me a:hover {
-  color: #00f9c3;
-  border: 1px solid #00f9c3;
 }
 
 .btn {
@@ -219,8 +241,9 @@ p.typewrite {
 .btn-secondary {
   border-radius: 5px;
   background-color: #00f9c3;
+  padding: 1.2rem 1.5rem;
   border: 1px solid #000;
-  color: #00f9c3;
+  color: #000;
   font-weight: 600;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -229,6 +252,7 @@ p.typewrite {
 .btn-secondary:hover {
   background-color: #000;
   color: #00f9c3;
+  border: 1px solid #00f9c3;
 }
 
 .card {
