@@ -1,23 +1,23 @@
-.header{
+.header {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2rem;
+  background-color: $color-black;
 
-    display: block;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 2rem;
-    background-color: transparent;
+  & .logo {
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: $color-primary;
+  }
 
-    & .logo{
-        font-size: 1.5rem;
-        font-weight: 100;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: $color-primary;
-    }
-
-    &__wrapper{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-    }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
 }
