@@ -83,6 +83,10 @@ body {
           transform: translateX(-1rem);
 }
 
+.banner a {
+  text-decoration: none;
+}
+
 p.typewrite {
   text-decoration: none;
   color: #ccfff0cc;
@@ -192,6 +196,10 @@ p.typewrite {
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
+}
+
+.about-text a {
+  text-decoration: none;
 }
 
 .contact-me {

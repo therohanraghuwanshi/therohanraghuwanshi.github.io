@@ -16,6 +16,10 @@
   &__heading {
     transform: translateX(-1rem);
   }
+
+  & a {
+    text-decoration: none;
+  }
 }
 
 p.typewrite {
@@ -120,6 +124,10 @@ p.typewrite {
       line-height: 28px;
       font-size: 18px;
       margin-bottom: 45px;
+    }
+
+    & a {
+      text-decoration: none;
     }
   }
 }
