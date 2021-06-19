@@ -83,6 +83,10 @@ body {
           transform: translateX(-1rem);
 }
 
+.banner__heading .heading-secondary {
+  padding-left: 0;
+}
+
 .banner a {
   text-decoration: none;
 }
@@ -241,7 +245,6 @@ p.typewrite {
 .service .title h2 {
   color: white;
   font-size: 75px;
-  width: 1130px;
   margin: 30px auto;
   text-align: center;
 }

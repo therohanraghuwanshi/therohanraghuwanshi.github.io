@@ -15,6 +15,9 @@
 
   &__heading {
     transform: translateX(-1rem);
+    & .heading-secondary {
+      padding-left: 0;
+    }
   }
 
   & a {
@@ -160,7 +163,6 @@ p.typewrite {
   & .title h2 {
     color: white;
     font-size: 75px;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
   }
