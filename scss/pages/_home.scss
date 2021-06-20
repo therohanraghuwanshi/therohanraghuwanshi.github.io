@@ -101,14 +101,6 @@ p.typewrite {
   background-color: $color-black-light;
 
   &-text {
-    & h2 {
-      text-transform: capitalize;
-      margin-bottom: 20px;
-      color: $color-white;
-      font-size: 75px;
-      margin-bottom: 20px;
-    }
-
     & h5 {
       text-transform: capitalize;
       color: white;
@@ -160,13 +152,6 @@ p.typewrite {
   width: 100%;
   padding: 100px 0px;
 
-  & .title h2 {
-    color: white;
-    font-size: 75px;
-    margin: 30px auto;
-    text-align: center;
-  }
-
   & i {
     font-size: 50px;
     display: block;
@@ -184,11 +169,85 @@ p.typewrite {
   & .box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
   & h5 {
     color: white;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
   }
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  color: $color-white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.project .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  border: 1px solid $color-primary-light;
+  border-radius: 10px;
+  position: relative;
+  background-image: url(img1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project .pi2 {
+  background-image: url(img2.png);
+}
+.project .pi3 {
+  background-image: url(img3.png);
+}
+.project .pi4 {
+  background-image: url(img4.png);
+}
+.project .pi5 {
+  background-image: url(img5.png);
+}
+.project .pi6 {
+  background-image: url(img6.png);
+}
+.project .img::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+  border: 1px solid $color-primary;
+  backdrop-filter: blur(2px);
+  background-color: $color-black-light;
+}
+.project .img:hover::before {
+  opacity: 1;
+}
+.project .img p {
+  width: 80%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  margin-bottom: 20px;
+  color: $color-white;
+}
+.project .img button {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.project .img:hover p,
+.project .img:hover button {
+  opacity: 1;
 }
