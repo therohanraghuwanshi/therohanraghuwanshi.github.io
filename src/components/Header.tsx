@@ -33,7 +33,8 @@ export default function Header() {
           </ul>
 
           <div className="s-header__contact">
-            <Link href="/contact" className="btn btn--primary s-header__contact-btn">Contact</Link>
+            {/* <Link href="/contact" className="btn btn--primary s-header__contact-btn">Contact</Link> */}
+            <Link href="/" className="btn btn--primary s-header__contact-btn">Contact</Link>
           </div>
 
         </nav>
