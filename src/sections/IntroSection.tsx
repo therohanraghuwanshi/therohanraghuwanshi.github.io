@@ -7,7 +7,7 @@ export default function IntroSection() {
                     <div className="column lg-12 s-intro__content-inner grid-block">
                         
                         <div className="s-intro__content-text">
-                            <div className="s-intro__content-pretitle text-pretitle">Hello, I&quom Rohan Raghuwanshi</div>
+                            <div className="s-intro__content-pretitle text-pretitle">{"Hello, I'm Rohan Raghuwanshi"}</div>
                             <h1 className="s-intro__content-title">
                                I make web3 stuff, One block at a time.
                             </h1>
