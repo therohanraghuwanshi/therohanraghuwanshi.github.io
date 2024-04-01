@@ -27,9 +27,9 @@ export default function Header() {
         <nav className="s-header__nav">
 
           <ul className="s-header__menu-links">
-            <li><Link href="/about">About</Link></li>
+            {/* <li><Link href="/about">About</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/contact">Contact</Link></li> */}
           </ul>
 
           <div className="s-header__contact">
