@@ -13,7 +13,7 @@ export default function AboutSection() {
 
           <div className="s-about__content-main grid-section-split__primary">
             <p className="attention-getter">
-              Welcome to my digital realm! I'm a fullstack blockchain developer
+              Welcome to my digital realm! I&apos;m a fullstack blockchain developer
               passionate about pushing tech boundaries and crafting innovative
               solutions that blend creativity with functionality. With a
               jack-of-all-trades mindset, I specialize in fullstack web apps and
@@ -22,7 +22,7 @@ export default function AboutSection() {
             </p>
 
             <p className="attention-getter">
-              My approach to development goes beyond code—it's about creating
+              My approach to development goes beyond code—it&apos;s about creating
               inspiring user interfaces, scalable backend systems, and
               integrating cutting-edge blockchain tech. From idea to reality, I
               thrive on turning concepts into impactful digital solutions that
