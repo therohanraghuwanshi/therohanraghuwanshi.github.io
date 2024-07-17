@@ -8,7 +8,7 @@ export default function ExpertiseSection() {
             <h2 className="text-display-title">My key areas of expertise.</h2>
 
             <p className="lead">
-              With over 3-4 years of experience in web development, I specialize
+              With over 4 years of experience in web development, I specialize
               in both Web2 and Web3 technologies, showcasing a versatile skill
               set that spans across traditional and decentralized ecosystems.
             </p>

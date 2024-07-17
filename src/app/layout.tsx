@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 import "./globals.css";
 
@@ -24,7 +25,7 @@ export default function RootLayout({
       <section id="content" className="s-content">
       {children}
       </section>
-      {/* <Footer/> */}
+      <Footer/>
       </body>
     </html>
   );
